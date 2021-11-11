@@ -1,7 +1,7 @@
 CURRENT_DIRECTORY=~/.project
 
-# Manage Project Permissions
-source $CURRENT_DIRECTORY/common/mpp.sh
+# Common Aliases
+source $CURRENT_DIRECTORY/common/common-aliases.sh
 
 # Docker Aliases
 source $CURRENT_DIRECTORY/docker/docker-aliases.sh
