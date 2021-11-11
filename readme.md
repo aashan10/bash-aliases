@@ -74,6 +74,8 @@ This uses Everyworkflows official docker repository for reference.
 - `git-revert-config` => `mv -f ~/.gitconfig.back ~/.gitconfig`
     This replaces the `~/.gitconfig` file with `~/.gitconfig.back`
 
+**Check `git/.gitconfig.common` file for more git aliases.**
+
 ### PHP Aliases
 - `install-php` => installs specified php version
     - requires php version number
