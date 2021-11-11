@@ -1,0 +1,11 @@
+[alias]
+	mr = !sh -c 'git fetch $1 merge-requests/$2/head:merge-request-$1-$2 && git checkout merge-request-$1-$2' -
+	
+	bulkpullmr = "!sh -c 'for id in $@ ; do \
+		git fetch upstream merge-requests/$id/head:merge-request-upstream-$id ; \
+		done' -"
+	bulkmergemr = "!sh -c 'for id in $@ ; do \
+		git merge merge-request-upstream-$id --no-edit ; \
+		done' -"
+	cleanmr = !sh -c 'git branch -D $(git branch | grep merge-request-upstream)'
+	cleanuat = !sh -c 'git branch -D $(git branch | grep UAT-)'

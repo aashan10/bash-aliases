@@ -1,0 +1,1 @@
+alias ew-console="sudo docker-compose exec cli php /var/www/html/bin/console"

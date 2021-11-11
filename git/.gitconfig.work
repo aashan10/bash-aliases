@@ -1,0 +1,9 @@
+[user]
+	email = aashan@sastodeal.com
+	name = Ashan Ghimire
+    
+[include]
+	path=~/.project/git/.gitconfig.common
+
+[credential]
+	helper = store

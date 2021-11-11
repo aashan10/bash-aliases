@@ -1,0 +1,1 @@
+alias mpp="sudo chmod -R 777 ."

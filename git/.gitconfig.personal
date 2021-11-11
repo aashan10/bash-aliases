@@ -1,0 +1,9 @@
+[user]
+	email = ashanghimire10@gmail.com
+	name = Aashan Ghimire
+
+[include]
+	path=~/.project/git/.gitconfig.common
+
+[credential]
+	helper = store
